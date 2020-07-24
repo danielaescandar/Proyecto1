@@ -14,15 +14,80 @@
 
   <body>
 
+ <!-- Comienzo del header -->
+ <header class="fixed-top">
+  <nav id="header" class="navbar navbar-expand-lg navbar-light" style="background-color:#585a58;"> <!--#f9a825-->
+      <a class="navbar-brand" href="#">
+           <img src="img/full-hard.png" width="190" height="70" alt="logo" /> </a>
+           <!--<h2>Full-Hard</h2>
+           <h3>Tecnologies</h3>-->
+      <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarNav" 
+      aria-controls="navbarNav" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactos" data-toggle="modal" data-target="#contacto">Contactos</a>
+          </li> 
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <div class="container">
+              <!-- Boton de Ingreso -->
+              <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#myModal">Ingreso</button>
+            </div>
+          </li>
+          <li>
+            <div class="container">
+              <!-- Boton de Usuario Nuevo -->
+              <button type="button" class="btn btn-outline-light btn-sm" data-toggle="modal" data-target="#myModal2">Usuario Nuevo</button>
+            </div>
+          </li>
+          <li>
+            <div class="container" >
+              <!-- Boton de Usuario Nuevo -->
+               <div class="carrito">
+                 <img src="img/carrito6.png" width="50" height="50 "  alt="Carrito">
+               </div>
+              <a class="nav-link" href="#carrito" data-toggle="modal" data-target="#carrito" > <strong>Carrito</strong>  </a>
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  
+</header>
+<!-- Final header -->
+
+
+
     <!--Header-->
-    <header>
+    <!--<header>
        <div class="container">
            <div class="row">
                 <a href="#">AQUI VA EL HEADER</a>
            </div>
        </div>
-    </header>
+    </header> -->
      <!--Fin del Header-->
+   
 
     <main>
 
@@ -49,7 +114,7 @@
             <div class="col-xs-10 col-sm-6 col-md-3 product " >
                   <div class="card mb-4  shadow-sm">
                     <a href="pagina2.html">
-                     <img src="imagenes/Productos/compragamer_Imganen_general_0__PC_ZOTAC_GAMER_AMD_Ryzen_5_1600_AF_Zen__RTX_2070_SUPER_SSD_240GB_DDR4_8GB_3200MHZ_Gigabyte_750W_80_Plus_Gold_944021c6-grn.jpg"
+                     <img src="img/compragamer_Imganen_general_0__PC_ZOTAC_GAMER_AMD_Ryzen_5_1600_AF_Zen__RTX_2070_SUPER_SSD_240GB_DDR4_8GB_3200MHZ_Gigabyte_750W_80_Plus_Gold_944021c6-grn.jpg"
                      class="card-img-top" alt="PC Zotac"></a>
                      <h3></h3>
                      <div class="card-body">
@@ -70,11 +135,12 @@
                     </div>
                   </div>
                 </div>
+
             <!--Segundo producto-->
             <div class="col-xs-10 col-sm-6 col-md-3 product " >
                  <div class="card mb-4 ">
-              <a href="http://youtube.com/">
-               <img src="imagenes/Productos/compragamer_Imganen_general_0__PC_GAMER_RYZEN_3_3200G___Radeon_Vega_8_8GB__2_X_DDR4_4GB_2666MHZ__SSD_240GB_62e872a8-grn.jpg"
+              <a href="">
+               <img src="img/compragamer_Imganen_general_0__PC_GAMER_RYZEN_3_3200G___Radeon_Vega_8_8GB__2_X_DDR4_4GB_2666MHZ__SSD_240GB_62e872a8-grn.jpg"
                class="card-img-top" alt="PC Ryzen"></a>
                <h3></h3>
                <div class="card-body">
@@ -97,8 +163,8 @@
              <!--Tercer producto-->
              <div class="col-xs-10 col-sm-6 col-md-3 product " >
                  <div class="card mb-4 ">
-              <a href="http://youtube.com/">
-               <img src="imagenes/Productos/compragamer_Imganen_general_16354_Notebook_Acer_Aspire_3_15.6__Intel_N4000_4GB_500GB_Win10_e2563085-grn.jpg"
+              <a href="">
+               <img src="img/compragamer_Imganen_general_16354_Notebook_Acer_Aspire_3_15.6__Intel_N4000_4GB_500GB_Win10_e2563085-grn.jpg"
                class="card-img-top" alt="PC Notebook Acer"></a>
                <h3></h3>
                <div class="card-body">
@@ -122,8 +188,8 @@
             <!--Cuarto producto-->
             <div class="col-xs-10 col-sm-6 col-md-3 product " >
                  <div class="card mb-4 ">
-              <a href="http://youtube.com/">
-               <img src="imagenes/Productos/compragamer_Imganen_general_19232_Notebook_HP_245_G7_14__A4-9125_4GB_500GB_Win10_5aa91626-grn.jpg"
+              <a href="">
+               <img src="img/compragamer_Imganen_general_19232_Notebook_HP_245_G7_14__A4-9125_4GB_500GB_Win10_5aa91626-grn.jpg"
                class="card-img-top" alt="PC Notebook HP"></a>
                <h3></h3>
                <div class="card-body">
@@ -148,6 +214,7 @@
           </div>
         </div>
 
+  <!--- Fin de Categoría Equipos y Notebooks-->
 
 
   <!---Categoría Monitores-->
@@ -167,7 +234,7 @@
             <div class="col-xs-10 col-sm-6 col-md-3 product " >
                     <div class="card mb-4  shadow-sm">
                       <a href="pagina2.html">
-                       <img src="imagenes/Productos/compragamer_Imganen_general_8720_Monitor_Samsung_24___Curvo_F390_3a4722ad-grn.jpg"
+                       <img src="img/compragamer_Imganen_general_8720_Monitor_Samsung_24___Curvo_F390_3a4722ad-grn.jpg"
                        class="card-img-top" alt="Monitor Samsung"></a>
                        <h3></h3>
                        <div class="card-body">
@@ -190,7 +257,8 @@
               </div>
           </div>
       </div>
-        
+      
+<!---Fin de  Categoría Monitores-->
 
 <!---Categoría Placas de Video-->
 <div class="container" id="categorias">
@@ -201,7 +269,7 @@
   </div>
  </div>  
 
-<!--Lista de productos-->  
+<!--Lista de Placas de video-->  
 <div class="container" id="lista_productos">
     <div class="row center-xs product">
          
@@ -209,7 +277,7 @@
       <div class="col-xs-10 col-sm-6 col-md-3 product " >
               <div class="card mb-4  shadow-sm">
                 <a href="pagina2.html">
-                 <img src="imagenes/Productos/compragamer_Imganen_general_15473_Placa_de_Video_Zotac_GeForce_RTX_2080_Ti_11GB_GDDR6_AMP_MAXX_f984a2e5-grn.jpg"
+                 <img src="img/compragamer_Imganen_general_15473_Placa_de_Video_Zotac_GeForce_RTX_2080_Ti_11GB_GDDR6_AMP_MAXX_f984a2e5-grn.jpg"
                  class="card-img-top" alt="Placa de video Zotac"></a>
                  <h3></h3>
                  <div class="card-body">
@@ -227,15 +295,85 @@
                   <!--Boton Agregar al carrito-->
                   <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Agregar al Carrito</a>
                   <p class="card-text"><small class="text-muted">Sin Stock</small></p>
-                  </div>
+                 </div>
               </div>
-        </div>
+      </div>
     </div>
 </div>
 
+<!---Fin de Categoría Placas de Video-->
 
+
+<!---Categoría Procesadores-->
+<div class="container" id="categorias">
+  <div class="row">
+    <div class="col text-center text-uppercase mb-4">
+     <h3>Categoría: Procesadores</h3>
+    </div>
+  </div>
+ </div>  
+
+<!--Lista de Procesadores-->  
+<div class="container" id="lista_productos">
+    <div class="row center-xs product">
+         
+      
+      <!--Primer producto-->
+      <div class="col-xs-10 col-sm-6 col-md-3 product " >
+        <div class="card mb-4  shadow-sm">
+          <a href="pagina2.html">
+           <img src="img/compragamer_Imganen_general_10690_Procesador_Intel_Core_i9_9900K_5.0GHz_Turbo_1151_Coffee_Lake_d49ace28-grn.jpg"
+           class="card-img-top" alt="Procesador Intel "></a>
+           <h3></h3>
+           <div class="card-body">
+            <h5 class="card-title">PROCESADOR INTEL</h5>
+            <ul class="list-unstyled mt-3 mb-4 ">
+                <li></li>
+                <li> Procesador Intel Core i9 </li>
+                <li> 9900K 5.0GHz Turbo 1151 Coffee Lake</li>
+                <li></li> 
+                <!--<h5 class="card-title text-primary">$65,856</h5>-->
+
+                <button type="button" class="btn btn-outline-primary">$65,856</button>
+                
+            </ul>
+            <!--Boton Agregar al carrito-->
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Agregar al Carrito</a>
+            <p class="card-text"><small class="text-muted">Stock disponible</small></p>
+           </div>
+        </div>
+      </div>
+
+      <!--Segundo producto-->
+      <div class="col-xs-10 col-sm-6 col-md-3 product " >
+       <div class="card mb-4">
+    <a href="pagina2.html">
+     <img src="img/compragamer_Imganen_general_12728_Procesador_AMD_A6_7480_3.5GHz_FM2__Dual_Core_65W__a0d46ee3-grn.jpg"
+     class="card-img-top" alt="Procesador Intel "></a>
+     <h3></h3>
+     <div class="card-body">
+      <h5 class="card-title">PROCESADOR INTEL</h5>
+      <ul class="list-unstyled mt-3 mb-4 ">
+          <li></li>
+          <li> Procesador Intel Core i9 </li>
+          <li> 9900K 5.0GHz Turbo 1151 Coffee Lake</li>
+          <li></li> 
+          <!--<h5 class="card-title text-primary">$65,856</h5>-->
+
+          <button type="button" class="btn btn-outline-primary">$65,856</button>
           
-           <h3>Categoría: Procesadores</h3>
+      </ul>
+      <!--Boton Agregar al carrito-->
+      <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Agregar al Carrito</a>
+      <p class="card-text"><small class="text-muted">Stock disponible</small></p>
+     </div>
+       </div>
+      </div>
+</div>
+
+<!---Fin de Procesadores-->
+          
+           
            <h3>Categoría: Auriculares</h3>
            <h3>Categoría: Periféricos</h3>
        </div> 
